@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Arya - Informatics Student at State Polytechnic of Malang. Mobile App Developer with Flutter, exploring Cyber Security, Machine Learning, and Computer Vision." />
+  <title>Arya | Mobile App Developer & Informatics Student</title>
+
+  <!-- Typography: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- Keyboard Accessibility Skip Link (R-32) -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Navigation Header (R-24, R-10: Single Glass Accent) -->
+  <header class="site-header" role="banner">
+    <div class="container nav-wrap">
+      <a href="#home" class="site-brand" aria-label="Arya Home">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>Arya</span>
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Focus Areas</a></li>
+          <li><a href="#interests" class="nav-link">Interests</a></li>
+          <li><a href="#contact" class="nav-link">Connect</a></li>
+          <li>
+            <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle theme">
+              <!-- Rendered via JS -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="5"></circle>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Landmark -->
+  <main id="main-content">
+    <!-- Hero / Intro Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-institution">
+            <span>State Polytechnic of Malang</span>
+            <span class="badge-separator" aria-hidden="true">&bull;</span>
+            <span class="hero-gpa-badge">GPA 3.87 / 4.00</span>
+          </div>
+          <h1 class="hero-title">Engineering mobile experiences and web systems.</h1>
+          <p class="hero-lead">
+            Hi, I'm Arya. I study Informatics Engineering at State Polytechnic of Malang (Polinema) with a 3.87 / 4.00 GPA. My primary focus is building cross-platform mobile applications using Flutter, while actively studying Cyber Security, Machine Learning, and Computer Vision.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary">
+              View Featured Projects
+            </a>
+            <a href="https://linkedin.com/in/muhammad-aryatama-m-1967b3431/" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76c.94 0 1.7-.76 1.7-1.7s-.76-1.7-1.7-1.7-1.7.76-1.7 1.7.76 1.7 1.7 1.7m1.4 9.74v-8.37H5.06v8.37h2.8z"/>
+              </svg>
+              LinkedIn Profile
+            </a>
+            <a href="https://github.com/MuhammadAryatamaM" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+        <div class="hero-avatar-col">
+          <div class="hero-avatar-frame">
+            <img src="assets/images/profile.jpg" alt="Muhammad Aryatama (Arya)" class="hero-avatar-img" />
+            <div class="hero-avatar-badge">
+              <span class="avatar-badge-dot" aria-hidden="true"></span>
+              <div>
+                <div style="font-weight: 700; color: var(--text-primary); font-size: 0.875rem;">Muhammad Aryatama M.</div>
+                <div style="font-size: 0.75rem; color: var(--text-secondary);">Informatics Engineering &bull; Polinema</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section-wrap" id="about">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-label">01 / Background</div>
+          <h2 class="section-title">About Me & Academic Journey</h2>
+          <p class="section-desc">
+            As a student at State Polytechnic of Malang, my coursework and personal projects combine software engineering fundamentals with hands-on client and team collaboration. I enjoy untangling real friction points, whether that is simplifying interfaces for non-technical users or managing sprint releases with classmates.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section (Multi-Photo Interactive Cards) -->
+    <section class="section-wrap" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-label">02 / Portfolio Work</div>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-desc">
+            Each project includes multiple screenshots documenting user flows, administrative tools, and technical implementation. Click on any preview to inspect the full photo gallery.
+          </p>
+        </div>
+
+        <!-- Rendered via main.js -->
+        <div class="projects-grid" id="projects-list">
+          <!-- Fallback noscript content for non-JS environments -->
+          <noscript>
+            <p style="padding: 1rem; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md);">
+              JavaScript is disabled. You can view project source code directly on GitHub:
+              <br/><br/>
+              • <strong>Website for Kindergarten School:</strong> <a href="https://github.com/Dzaky-Hadyan/TK-Muslimat-NU-29-Malang">TK-Muslimat-NU-29-Malang</a><br/>
+              • <strong>Campus Laboratory Company Profile:</strong> <a href="https://github.com/MuhammadAryatamaM/Laboratory-Company-Profile-Web">Laboratory-Company-Profile-Web</a><br/>
+              • <strong>Housing Complex Company Profile:</strong> <a href="https://github.com/MuhammadAryatamaM/Hunian-Lestari-Company-Profile-Web">Hunian-Lestari-Company-Profile-Web</a><br/>
+              • <strong>Kasir Ringan:</strong> <a href="https://github.com/MuhammadAryatamaM/Kasir-Ringan">Kasir-Ringan</a><br/>
+              • <strong>SmartCook (WIP):</strong> <a href="https://github.com/Adi-Luhung/PBL-SmartCook">PBL-SmartCook</a>
+            </p>
+          </noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Focus & Skills Matrix Section -->
+    <section class="section-wrap" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-label">03 / Technical Competencies</div>
+          <h2 class="section-title">Technical Domains & Current Focus</h2>
+          <p class="section-desc">
+            Technologies I use for development alongside fields currently under study in my academic curriculum.
+          </p>
+        </div>
+
+        <div class="skills-layout">
+          <!-- Column 1: Mobile Development -->
+          <div class="skill-col">
+            <h3 class="skill-col-title">
+              <span class="skill-bullet" aria-hidden="true"></span>
+              Mobile Engineering
+            </h3>
+            <p class="skill-col-desc">
+              Building native performance cross-platform applications with focus on usability and responsive layouts.
+            </p>
+            <ul class="skill-item-list">
+              <li class="skill-item">Flutter & Dart</li>
+              <li class="skill-item">Senior-friendly UI/UX Design</li>
+              <li class="skill-item">Offline SQLite Storage</li>
+              <li class="skill-item">Supabase Integration</li>
+              <li class="skill-item">State Management Patterns</li>
+            </ul>
+          </div>
+
+          <!-- Column 2: Web & CMS Systems -->
+          <div class="skill-col">
+            <h3 class="skill-col-title">
+              <span class="skill-bullet" aria-hidden="true"></span>
+              Web & Back-End Systems
+            </h3>
+            <p class="skill-col-desc">
+              Developing full-stack Content Management Systems and institutional profile portals with modern toolchains.
+            </p>
+            <ul class="skill-item-list">
+              <li class="skill-item">PHP & Laravel Framework</li>
+              <li class="skill-item">Filament Admin CMS</li>
+              <li class="skill-item">PostgreSQL & MySQL Databases</li>
+              <li class="skill-item">Tailwind CSS & Bootstrap</li>
+              <li class="skill-item">Waterfall & Agile SDLC Practices</li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Active Learning -->
+          <div class="skill-col">
+            <h3 class="skill-col-title">
+              <span class="skill-bullet" aria-hidden="true"></span>
+              Curriculum Exploration
+            </h3>
+            <p class="skill-col-desc">
+              Emerging fields actively studied through university coursework and collaborative laboratory projects.
+            </p>
+            <ul class="skill-item-list">
+              <li class="skill-item">Cyber Security Fundamentals</li>
+              <li class="skill-item">Machine Learning with Google Colab</li>
+              <li class="skill-item">Image Processing & Computer Vision</li>
+              <li class="skill-item">Object-Oriented Programming (OOP)</li>
+              <li class="skill-item">Project Management & Technical Docs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interests & Fun Fact Section (Human Touch) -->
+    <section class="section-wrap" id="interests">
+      <div class="container">
+        <div class="interests-card">
+          <div class="interests-body">
+            <div class="section-label">04 / Personal Interest</div>
+            <h3>When Not Writing Code</h3>
+            <p>
+              I am a dedicated rhythm game enthusiast. Fast-paced beatmaps help me decompress and train hand-eye coordination.
+            </p>
+          </div>
+          <div class="game-chips-grid">
+            <div class="game-chip">
+              Project Sekai <span class="game-chip-note">(Main)</span>
+            </div>
+            <div class="game-chip">
+              Arcaea
+            </div>
+            <div class="game-chip">
+              osu!mania
+            </div>
+            <div class="game-chip">
+              maimai <span class="game-chip-note">(Arcade)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Connect / Contact Section -->
+    <section class="section-wrap" id="contact">
+      <div class="container">
+        <div class="connect-box">
+          <div>
+            <div class="section-label">05 / Get in Touch</div>
+            <h2 class="section-title" style="margin-bottom: 0.5rem;">Connect with Arya</h2>
+            <p class="section-desc" style="margin: 0;">
+              Open to internship opportunities, student project collaborations, and discussions on Flutter and mobile development.
+            </p>
+          </div>
+          <div class="connect-links">
+            <a href="https://linkedin.com/in/muhammad-aryatama-m-1967b3431/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="margin-right: 0.5rem;">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76c.94 0 1.7-.76 1.7-1.7s-.76-1.7-1.7-1.7-1.7.76-1.7 1.7.76 1.7 1.7 1.7m1.4 9.74v-8.37H5.06v8.37h2.8z"/>
+              </svg>
+              LinkedIn Profile
+            </a>
+            <a href="https://github.com/MuhammadAryatamaM" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-content">
+      <div>
+        <span>Arya &bull; State Polytechnic of Malang</span>
+      </div>
+      <div>
+        <span>Hosted via GitHub Pages</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Full Photo Gallery Modal Dialog (R-26, R-32 Keyboard & Esc Support) -->
+  <div 
+    class="modal-dialog" 
+    id="gallery-modal" 
+    role="dialog" 
+    aria-modal="true" 
+    aria-labelledby="modal-title"
+  >
+    <div class="modal-content" role="document">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <h3 class="modal-title" id="modal-title">Project Gallery</h3>
+          <span class="modal-counter" id="modal-counter">Photo 1 of 3</span>
+        </div>
+        <div class="modal-header-actions">
+          <button type="button" class="modal-action-btn" id="modal-zoom-btn" aria-label="Toggle full image width zoom (Shortcut: Z)" title="Toggle Zoom (or click image / press Z)">
+            <svg class="zoom-in-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              <line x1="11" y1="8" x2="11" y2="14"></line>
+              <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+            <svg class="zoom-out-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display: none;">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+            <span class="zoom-text">Zoom (100%)</span>
+          </button>
+          <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close photo gallery (Escape)">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="modal-viewport-wrap">
+        <div class="modal-viewport" id="modal-viewport" tabindex="0" role="region" aria-label="Interactive photo viewport. Click image or press Z to toggle zoom">
+          <img src="" alt="" class="modal-main-img" id="modal-main-img" />
+          <div class="modal-zoom-hint" id="modal-zoom-hint" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              <line x1="11" y1="8" x2="11" y2="14"></line>
+              <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+            Click image or press Z to zoom full width
+          </div>
+        </div>
+
+        <button type="button" class="modal-nav-btn modal-prev-btn" id="modal-prev-btn" aria-label="Previous photo (Left Arrow)">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+        <button type="button" class="modal-nav-btn modal-next-btn" id="modal-next-btn" aria-label="Next photo (Right Arrow)">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+
+      <div class="modal-footer">
+        <div class="modal-caption" id="modal-caption"></div>
+        <div class="modal-filmstrip" id="modal-filmstrip">
+          <!-- Rendered dynamically via JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
